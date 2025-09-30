@@ -1,36 +1,76 @@
-Blood Bank Management System is a desktop application built using Java swing in Apache NetBeans. 
-It helps manage donor details, blood stock, and other essential tasks related to a blood bank.
-The main goal of this project was to create a simple and user-friendly interface for managing 
-operations like adding donors, updating records, increasing stock levels, and handling login/logout
-functionality.
+# Blood Bank Management System
+A robust desktop application built with Java Swing and MySQL for efficient management of blood bank operations.
 
-#Technologies used
--Java(Swing for GUI)
--NetBeans IDE
--MySQL(for database)
--JDBC(for connecting Java to MySQL)
+This project provides a simple and user-friendly graphical interface to manage donor details, track blood stock, and handle other essential tasks. The primary goal is to streamline the process of adding new donors, updating records, managing inventory, and searching for information.
 
-#Project Structure
--'src/Project/' - contains all the .java source code files
--'nbproject/' - NetBeans project configuration files
--'build/', 'dist/' - automated generated folders
+# Features
+User Authentication: Secure login and logout system for authorized access.
 
-#How to run the project
-1. Clone this repository or download the ZIP
-2. Open the project in NetBeans
-3. Make sure MySQL is running and update the DB credentials in 'Connectionprovider.java'
-4. Run the 'login.java' file to start the app
+Donor Management: Easily add, update, and view comprehensive donor records.
 
-#Features
-- Donor registration and management
-- Search donors by blood group or location
-- Increase blood stock
-- Login and logout system
-- Clean and intuitive Swing-based interface
+Blood Stock Control: Increase and manage blood stock levels for different blood groups.
 
-#Notes
-- All images used in the app (for buttons, background, etc.) are stored within the project
-- Ensure you’ve set up the database tables before running the application
-- This project was created as part of my learning experience in Java and database connectivity
+Advanced Search: Quickly find donors by their blood group or location.
 
-If you'd like to know more or suggest improvements, feel free to contact.
+Intuitive GUI: A clean and straightforward interface designed with Java Swing for ease of use.
+
+# Tech Stack
+Core Language: Java
+
+GUI: Java Swing
+
+Database: MySQL
+
+Connectivity: JDBC (Java Database Connectivity)
+
+IDE: Apache NetBeans
+
+# Project Structure
+A brief overview of the key directories in this project:
+
+.
+├── src/Project/    # Contains all .java source code files
+├── nbproject/      # NetBeans project configuration files
+├── build/          # Stores the compiled .class files
+└── dist/           # Contains the final runnable .jar application
+
+# Getting Started
+Follow these steps to get the project up and running on your local machine.
+
+Prerequisites
+Java Development Kit (JDK) 8 or newer
+
+Apache NetBeans IDE
+
+MySQL Server
+
+Installation & Setup
+Clone the repository:
+
+git clone [https://github.com/garima533/BloodBankManagementSystem.git](https://github.com/garima533/BloodBankManagementSystem.git)
+
+Open the project in NetBeans:
+
+Launch NetBeans IDE.
+
+Go to File > Open Project and select the cloned folder.
+
+Set up the Database:
+
+Ensure your MySQL server is running.
+
+Create a new database for this project.
+
+Import the necessary tables using the provided .sql file (or create them manually if not provided).
+
+Open the src/Project/Connectionprovider.java file and update the database URL, username, and password with your credentials.
+
+Run the Application:
+
+In the NetBeans project explorer, navigate to the src/Project/ directory.
+
+Right-click on the login.java file.
+
+Select Run File to start the application.
+
+
