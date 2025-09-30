@@ -27,12 +27,12 @@ IDE: Apache NetBeans
 
 # Project Structure
 A brief overview of the key directories in this project:
-
+'''
 -- src/Project    # Contains all .java source code files
 -- nbproject      # NetBeans project configuration files
 -- build          # Stores the compiled .class files
 -- dist           # Contains the final runnable .jar application
-
+'''
 # Getting Started
 Follow these steps to get the project up and running on your local machine.
 
